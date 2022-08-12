@@ -13,7 +13,8 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
       <Head>
         <title>{siteConfig.title}</title>
-        <script src="/analytics.js" defer />
+        <script src="/analytics.js" async />
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JC17SK5FDW" async />
       </Head>
 
       <main className="flex w-full flex-1 flex-col bg-gray-50 dark:bg-gray-800">
